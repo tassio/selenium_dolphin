@@ -5,8 +5,8 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 install_requires = ['requests', 'selenium', 'pyppeteer'] 
-if sys.platform == 'win32':
-    install_requires.append('pywinauto')
+# if sys.platform == 'win32':
+#     install_requires.append('pywinauto')
 
 setup(
     name='selenium_dolphin',
